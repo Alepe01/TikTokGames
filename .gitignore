@@ -1,0 +1,8 @@
+# Videos que superan el limite de 100MB de GitHub
+tiktokExperiments/esenarios y utileria/caja_musical_fondo.mp4
+tiktokExperiments/esenarios y utileria/memorama_fondo.mp4
+
+# Secretos / variables de entorno locales
+.env
+__pycache__/
+*.pyc

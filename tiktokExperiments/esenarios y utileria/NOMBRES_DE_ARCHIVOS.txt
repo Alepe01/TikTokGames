@@ -1,0 +1,42 @@
+COLOCA AQUÍ LOS RECURSOS. Los videos se muestran sin su audio interno.
+Los audios listados se reproducen en loop al mismo tiempo que su fondo.
+Si falta un archivo, se muestra fondo negro o queda en silencio.
+
+JUEGOS
+ahorcado_fondo.mp4
+ahorcado_musica.mp3
+trivia_fondo.mp4
+trivia_musica.mp3
+caja_musical_fondo.mp4
+caja_musical_musica.mp3
+memorama_fondo.mp4
+memorama_musica.mp3
+
+PLATICA CON P8 (el video depende del personaje elegido en la Consola P8, no del juego)
+p8_fondo.mp4
+p8_musica.mp3 (opcional, se reproduce bajito bajo la voz del personaje)
+antip8_fondo.mp4
+antip8_musica.mp3 (opcional)
+
+ESCENARIOS (sin juego encima)
+fuera_del_circo_fondo.mp4
+fuera_del_circo_musica.mp3
+gradas_fondo.mp4
+gradas_musica.mp3
+escenario_fondo.mp4
+escenario_musica.mp3
+
+INSTRUCCIONES (se reproducen una vez antes de volver al juego activo)
+trivia_instrucciones.mp4
+ahorcado_instrucciones.mp4
+caja_musical_instrucciones.mp4
+memorama_instrucciones.mp4
+platica_con_p8_instrucciones.mp4
+
+PRESENTADOR VIRTUAL (PNG con fondo transparente)
+presentador_boca_cerrada.png
+presentador_boca_abierta.png
+
+CAJA MUSICAL (PNG; cerrada mientras el misterio sigue en pie, abierta al revelar la palabra)
+caja_cerrada.png
+caja_abierta.png
