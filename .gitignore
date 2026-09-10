@@ -21,13 +21,13 @@ env/
 # Recursos multimedia pesados
 # (se colocan manualmente, ver README dentro de la carpeta)
 # ============================
-esenarios y utileria/*.mp4
-esenarios y utileria/*.mp3
-esenarios y utileria/*.png
-esenarios y utileria/*.jpg
-esenarios y utileria/*.jpeg
-esenarios y utileria/*.wav
-!esenarios y utileria/README.md
+tiktokExperiments/esenarios y utileria/*.mp4
+tiktokExperiments/esenarios y utileria/*.mp3
+tiktokExperiments/esenarios y utileria/*.png
+tiktokExperiments/esenarios y utileria/*.jpg
+tiktokExperiments/esenarios y utileria/*.jpeg
+tiktokExperiments/esenarios y utileria/*.wav
+!tiktokExperiments/esenarios y utileria/README.md
 
 
 # ============================

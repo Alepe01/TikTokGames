@@ -5,11 +5,12 @@ import sys
 import threading
 import tkinter as tk
 
-from ComentariosyRegalos import ServicioTikTok
-from GameManager import GameManager
-from PanelControl import PanelControl
-from ReproductorFondos import ReproductorFondos
-from juegos import Ahorcado, CajaMusical, Memorama, PlaticaConP8, Trivia, tema
+from TikTokGames.tiktokExperiments.ComentariosyRegalos import ServicioTikTok
+from TikTokGames.tiktokExperiments.GameManager import GameManager
+from TikTokGames.tiktokExperiments.PanelControl import PanelControl
+from TikTokGames.tiktokExperiments.ReproductorFondos import ReproductorFondos
+from TikTokGames.tiktokExperiments.juegos import Ahorcado, CajaMusical, Memorama, PlaticaConP8, Trivia
+from TikTokGames.tiktokExperiments.juegos import tema
 
 
 def _activar_dpi_awareness() -> None:

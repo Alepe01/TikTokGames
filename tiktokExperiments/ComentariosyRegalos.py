@@ -9,7 +9,7 @@ from TikTokLive import TikTokLiveClient
 from TikTokLive.events import CommentEvent, ConnectEvent, GiftEvent
 
 if TYPE_CHECKING:
-    from GameManager import GameManager
+    from TikTokGames.tiktokExperiments.GameManager import GameManager
 
 UNIQUE_ID = "qu1scalus2"  # Cambia por tu usuario, sin @.
 

@@ -7,10 +7,10 @@ from typing import Any
 
 import pygame
 
-from juegos import tema
-from juegos.base import JuegoBase
-from ReproductorFondos import ReproductorFondos
-from PresentadorVirtual import DetectorDeVoz
+from TikTokGames.tiktokExperiments.juegos import tema
+from TikTokGames.tiktokExperiments.juegos.base import JuegoBase
+from TikTokGames.tiktokExperiments.ReproductorFondos import ReproductorFondos
+from TikTokGames.tiktokExperiments.PresentadorVirtual import DetectorDeVoz
 
 
 class GameManager:

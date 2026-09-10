@@ -9,8 +9,8 @@ try:
 except ImportError:
     sd = None
 
-from ConsolaP8 import ConsolaP8
-from GameManager import GameManager
+from TikTokGames.tiktokExperiments.ConsolaP8 import ConsolaP8
+from TikTokGames.tiktokExperiments.GameManager import GameManager
 
 
 class PanelControl:

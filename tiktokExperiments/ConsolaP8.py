@@ -3,7 +3,7 @@ from __future__ import annotations
 import tkinter as tk
 from tkinter import ttk
 
-from GameManager import GameManager
+from TikTokGames.tiktokExperiments.GameManager import GameManager
 
 VERDE = "#00FF82"
 NEGRO_PANEL = "#05160F"
