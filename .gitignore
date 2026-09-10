@@ -1,8 +1,50 @@
-# Videos que superan el limite de 100MB de GitHub
-tiktokExperiments/esenarios y utileria/caja_musical_fondo.mp4
-tiktokExperiments/esenarios y utileria/memorama_fondo.mp4
-
-# Secretos / variables de entorno locales
+# ============================
+# Variables de entorno y secretos
+# ============================
 .env
+*.key
+*.pem
+
+# ============================
+# Python
+# ============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ============================
+# Recursos multimedia pesados
+# (se colocan manualmente, ver README dentro de la carpeta)
+# ============================
+esenarios y utileria/*.mp4
+esenarios y utileria/*.mp3
+esenarios y utileria/*.png
+esenarios y utileria/*.jpg
+esenarios y utileria/*.jpeg
+esenarios y utileria/*.wav
+!esenarios y utileria/README.md
+
+
+# ============================
+# VS Code
+# ============================
+.vscode/
+*.code-workspace
+
+# ============================
+# Sistema operativo
+# ============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# OneDrive (evita conflictos de sync)
+# ============================
+*.tmp
+~$*
