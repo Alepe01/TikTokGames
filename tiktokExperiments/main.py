@@ -4,6 +4,13 @@ import ctypes
 import sys
 import threading
 import tkinter as tk
+from pathlib import Path
+
+# Permite ejecutar este archivo directamente (python main.py) agregando la carpeta
+# que contiene TikTokGames/ al sys.path, ya que los imports de abajo son absolutos.
+_RAIZ_PROYECTO = Path(__file__).resolve().parents[2]
+if str(_RAIZ_PROYECTO) not in sys.path:
+    sys.path.insert(0, str(_RAIZ_PROYECTO))
 
 from TikTokGames.tiktokExperiments.ComentariosyRegalos import ServicioTikTok
 from TikTokGames.tiktokExperiments.GameManager import GameManager
